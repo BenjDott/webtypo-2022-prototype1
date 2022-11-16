@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-size: 100%;
+  }
+  h1 {
+  font-size: 2.30rem;
+  line-height: 90%;
+  }
+  @media (min-width: 700px){
+  h1 {
+  font-size: 3.5rem;
+  }
+  }
+  @media (min-width: 1000px){
+  h1 {
+  font-size: 4.75rem;
+  }
+  }
+
+  
+img {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+  
+  
+  
+h1 { font-size: 250px;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-top: 15%;
+  
+}
+
+
+h2 {font-size: 100px;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 80%;
+
+}
+
+
+
+h3 {font-size: 50px;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 90%;}
+
+  h4{font-size: 50px;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 90%;}
+
+    h5{font-size: 50px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      line-height: 90%;
+    font-style: italic;}
+
+
+
+
+
+
+
+body{
+  margin-top: 45px;
+}
+
+p{font-size: 20px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 125%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 30%;
+  margin-bottom: 40%;
+  /* <length> values */
+text-indent: -6mm;
+text-indent: 60px;
+
+}
+
+.citation {
+  margin-left: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-style: italic;
+
+}
