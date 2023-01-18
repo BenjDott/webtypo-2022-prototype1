@@ -4,20 +4,28 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap');
 
+@font-face {
+  font-family: "le-murmure";
+  src: url("typo/le-murmure.otf") format('opentype');
+  font-weight: medium;
+  font-stretch: normal;
+}
 html {
   font-size: 100%;
+  background-color: rgb(54, 54, 54);
   }
 
   h1 {
   font-size: 2.30rem;
   line-height: 90%;
+  font-family: "le-murmure";
+  color:rgb(48, 255, 16) ;
   }
   @media (min-width: 700px){
-  h1 {font-size: 3.5rem;}
-  }
+  h1 { font-size: 3.5rem;}}
+
   @media (min-width: 1000px){
-  h1 {font-size: 4.75rem;}
-  }
+  h1 {font-size: 4.75rem;}}
 
   
 img {
@@ -28,34 +36,58 @@ img {
   
   
   
-h1 { font-size: 250px;
+h1 { font-size: 400px;
   text-align: center;
-  font-family: 'Space Grotesk', sans-serif;
   margin-top: 15%;
-  }
+  font-family: "le-murmure";
+}
 
 
 h2 {font-size: 100px;
   text-align: center;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "le-murmure";
   line-height: 80%;
-}
+  color:rgb(48, 255, 16)}
 
-.infos { font-family: Space Grotesk;
-  font-size: 60px;
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    font-size: 120px;
+    text-align: center;
+    font-family: "le-murmure";
+    line-height: 120%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color:rgb(48, 255, 16)}
+
+h3 {
+  font-size: 120px;
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 30%;
-margin-top: 30%;}
-
-
-h3 {font-size: 130px;
-  text-align: left;
-  margin-left: 9%;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "le-murmure";
   line-height: 120%;
-} 
+margin-left: 5%;
+margin-right: 5%;
+color:rgb(48, 255, 16)}
+
+  h4{font-size: 100px;
+    text-align: center;
+    font-family: "le-murmure";
+    line-height: 90%;
+  margin-top: 30%;
+  margin-bottom: 5%;
+  color:rgb(210, 255, 203)
+  }
+
+    h5{font-size: 50px;
+      text-align: center;
+      font-family: 'IBM Plex Serif', serif;
+      line-height: 90%;
+    font-style: italic;}
+
+    
+
 
 h4 {font-size: 60px;
   text-align: left;
@@ -73,8 +105,15 @@ p{font-size: 20px;
   text-align: left;
   font-family: 'IBM Plex Serif', serif;
   line-height: 125%;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /* <length> values */
 text-indent: -6mm;
 text-indent: 60px;
+color:rgb(210, 255, 203)
+
 }
 
 .Date{
@@ -107,13 +146,12 @@ text-indent: 60px;
     padding-left: 5%;
     padding-right: 10%;
     padding-bottom: 5%;
-    padding-top: 10%;
-    
-
-  }
+ }
 
     .left {
-      width: 50%
+      width: 10%;
+      padding-top: 5%;
+      margin-right: 0%;
     }
     
     .right {
