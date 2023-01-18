@@ -47,11 +47,20 @@ h2 {font-size: 100px;
   text-align: center;
   font-family: "le-murmure";
   line-height: 80%;
-  color:rgb(48, 255, 16)
+  color:rgb(48, 255, 16)}
 
-}
-
-
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    font-size: 120px;
+    text-align: center;
+    font-family: "le-murmure";
+    line-height: 120%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color:rgb(48, 255, 16)}
 
 h3 {
   font-size: 120px;
