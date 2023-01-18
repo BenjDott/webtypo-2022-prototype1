@@ -34,6 +34,20 @@ img {
   margin-right: 20%;
 }
   
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+    border : 1px solid red;  
+}
+
+
+
+nav li {
+  border : 1px solid #fff;
+}
+
   
   
 h1 { font-size: 400px;
@@ -43,7 +57,9 @@ h1 { font-size: 400px;
 }
 
 
-h2 {font-size: 100px;
+#author {
+  display: block;
+  font-size: 100px;
   text-align: center;
   font-family: "le-murmure";
   line-height: 80%;
