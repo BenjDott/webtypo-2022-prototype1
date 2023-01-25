@@ -80,7 +80,7 @@ h1 { font-size: 700px;
     font-family: Space Grotesk;
     font-size: 60px;
     color:rgb(255, 255, 255)
-    text-align: right;}
+  }
 
 
 
@@ -96,9 +96,7 @@ h1 { font-size: 700px;
   font-family: "le-murmure";
   line-height: 50%;
   margin-left: 10%;
-  color:rgb(48, 255, 16)
-
-}
+  color:rgb(48, 255, 16)}
 
 
 
@@ -116,39 +114,14 @@ margin-left: 5%;
 margin-right: 5%;
 color:rgb(48, 255, 16)}
 
-  h4{font-size: 100px;
-    text-align: center;
-    font-family: "le-murmure";
-    line-height: 90%;
-  margin-top: 30%;
-  margin-bottom: 5%;
-  color:rgb(210, 255, 203)
-  }
-
-    h5{font-size: 50px;
-      text-align: center;
-      font-family: 'IBM Plex Serif', serif;
-      line-height: 90%;
-    font-style: italic;}
-
     
 
-
-h4 {font-size: 60px;
-  text-align: left;
-  margin-left: 9%;
-  font-family: 'Space Grotesk', sans-serif;
-  line-height: 120%;
-
-}
-
 body{
-  margin-top: 45px;
-}
+  margin-top: 45px;}
 
 p{font-size: 25px;
   text-align: left;
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'NeueHaasUnicaPro', sans-serif;
   line-height: 125%;
   margin-left: 20%;
   margin-right: 10%;
@@ -161,45 +134,6 @@ color:rgb(210, 255, 203)
 
 }
 
-
-
-.citation{
-  margin-left: 10%;
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 35px;
-  }
-
-
-.deux{
-  line-height: 135%
-}
-
-.trois{
-  font-size: 25px;
-
-}
-
-*{
-  box-sizing: border-box;
-}
-
-
-.column {
-    float: left;
-    padding-left: 5%;
-    padding-right: 10%;
-    padding-bottom: 5%;
- }
-
-    .left {
-      width: 10%;
-      padding-top: 5%;
-      margin-right: 0%;
-    }
-    
-    .right {
-    width: 50%;
-  }
       
 .row:after {
         content: "";
@@ -210,6 +144,7 @@ color:rgb(210, 255, 203)
           margin-left: 10%;
           margin-right: 10%;
           margin-top: 15%;
-          font-family: 'Space Grotesk', sans-serif;
+          font-family: 'le-murmure', sans-serif;
           font-size: 35px;
-          font-style: italic; }
+          font-style: normal; 
+        color: rgb(255, 255, 255);}

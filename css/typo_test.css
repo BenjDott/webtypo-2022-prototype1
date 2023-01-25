@@ -9,3 +9,9 @@
     src: url("typo/le-murmure.otf") format('opentype');
     font-weight: medium;
     font-stretch: normal;}
+
+    @font-face {
+        font-family: "NeueHaasUnicaPro";
+        src: url("typo/NeueHaasUnicaPro.otf") format('opentype');
+        font-weight: normal;
+        font-stretch: normal;}
