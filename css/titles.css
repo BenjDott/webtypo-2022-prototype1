@@ -1,0 +1,54 @@
+
+header h1 { 
+    border: 1px solid red;
+    color:rgb(54, 54, 54); 
+    font-family: "le-murmure";
+    overflow: hidden;
+    padding-top: 1em;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  h2 { 
+    font-size: 120px;
+    text-align: center;
+    font-family: "le-murmure";
+    line-height: 120%;
+   
+    color:rgb(54, 54, 54)
+  }
+  
+  h3 { 
+    font-size: 120px;
+    text-align: left;
+    font-family: "le-murmure";
+    line-height: 120%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    color:rgb(54, 54, 54)
+  }
+
+  .title-main {
+    font-size: clamp(200px, 24vw, 1524px);
+    display: block;
+    text-align: center;
+    margin-top: 0.5vh; 
+  }
+  
+  .title-author {
+    float: left;
+  }
+  
+  
+    .title-date {
+      float: right;
+  }
+
+
+
+  @media (min-width: 700px){
+    h1 { font-size: 3.5rem;}}
+    
+    @media (min-width: 1000px){
+    h1 {font-size: 4.75rem;}}

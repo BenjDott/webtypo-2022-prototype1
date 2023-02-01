@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    font-size: 80px;
+    text-align: center;
+    font-family: "le-murmure";
+    line-height: 120%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color:rgb(54, 54, 54)}
