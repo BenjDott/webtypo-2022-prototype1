@@ -1,23 +1,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 @font-face {
     font-family: "le-murmure";
     src: url("typo/le-murmure.otf") format('opentype');
     font-weight: medium;
     font-stretch: normal;}
 
-    @font-face {
-        font-family: "NeueHaasUnicaPro";
-        src: url("typo/NeueHaasUnicaPro.otf") format('opentype');
-        font-weight: normal;
-        font-stretch: normal;}
+ @font-face {
+        font-family: "Sprat_Variable";
+        src: url("typo/Sprat_Variable.ttf") format('truetype');
+        font-weight: light;  
+        font-stretch: ultra-condensed;
+        font-stretch: extra-condensed light;
+        font-stretch: condensed;
+        font-stretch: semi-condensed;
+        font-stretch: normal;
+        font-stretch: semi-expanded;
+        font-stretch: expanded;
+        font-stretch: extra-expanded;
+        font-stretch: ultra-expanded;}
+
+
 
 h1, h2, h3, h4, .date, .chapitre {
-    font-family: "le-murmure";
+    font-family: "Sprat_Variable";
+    font-stretch: condensed thin;
 } 
 
 body { 
-    font-family: "IBM Plex Serif";
-}
+    font-family:'Golos Text', sans-serif; }

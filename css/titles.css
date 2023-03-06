@@ -1,8 +1,10 @@
 
 header h1 { 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     color:rgb(54, 54, 54); 
-    font-family: "le-murmure";
+    font-family: "Sprat_Variable";
+    font-weight: thin;
+    font-stretch: 50%;
     overflow: hidden;
     padding-top: 1em;
     width: 80vw;
@@ -12,7 +14,7 @@ header h1 {
   h2 { 
     font-size: 120px;
     text-align: center;
-    font-family: "le-murmure";
+    font-family: "Sprat_Variable";
     line-height: 120%;
    
     color:rgb(54, 54, 54)
@@ -21,7 +23,7 @@ header h1 {
   h3 { 
     font-size: 120px;
     text-align: left;
-    font-family: "le-murmure";
+    font-family: "Sprat_Variable";
     line-height: 120%;
     margin-left: 5%;
     margin-right: 5%;
@@ -30,7 +32,7 @@ header h1 {
   }
 
   .title-main {
-    font-size: clamp(200px, 24vw, 1524px);
+    font-size: clamp(300px, 25vw, 1524px);
     display: block;
     text-align: center;
     margin-top: 0.5vh; 
