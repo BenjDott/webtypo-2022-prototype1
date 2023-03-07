@@ -17,8 +17,9 @@ p{font-size: 25px;
     margin-right: 10%;
     margin-top: 15%;
     font-family: 'Sprat_Variable';
-    font-weight: thin;
-    font-size: 35px;
-    font-style: thin; 
+    font-family: "Sprat_Variable";
+    font-stretch: 5% 20%;
+    font-weight: 10;
+    font-size: 35px; 
     color: rgb(54, 54, 54);
   }

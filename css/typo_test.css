@@ -14,22 +14,12 @@
  @font-face {
         font-family: "Sprat_Variable";
         src: url("typo/Sprat_Variable.ttf") format('truetype');
-        font-weight: light;  
-        font-stretch: ultra-condensed;
-        font-stretch: extra-condensed light;
-        font-stretch: condensed;
-        font-stretch: semi-condensed;
-        font-stretch: normal;
-        font-stretch: semi-expanded;
-        font-stretch: expanded;
-        font-stretch: extra-expanded;
-        font-stretch: ultra-expanded;}
-
-
+        font-stretch: 0% 100%;}
+        
 
 h1, h2, h3, h4, .date, .chapitre {
     font-family: "Sprat_Variable";
-    font-stretch: condensed thin;
+    font-stretch: 0% 100%;
 } 
 
 body { 
