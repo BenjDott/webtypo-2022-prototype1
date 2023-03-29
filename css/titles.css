@@ -1,14 +1,12 @@
 
 header h1 { 
-    /*border: 1px solid red;*/
-    color:rgb(54, 54, 54); 
     font-family: "Sprat_Variable";
-    font-stretch: 5% 20%;
-    font-weight: 10;
+    font-variation-settings: 'wght' 50, 'wdth' 100;
     overflow: hidden;
     padding-top: 1em;
-    width: 80vw;
     margin: 0 auto;
+    margin-bottom: 15%;
+    /*color:rgb(54, 54, 54)*/
   }
 
   h2 { 
@@ -18,8 +16,7 @@ header h1 {
     font-stretch: 5% 20%;
     font-weight: 10;
     line-height: 120%;
-   
-    color:rgb(54, 54, 54)
+    /*color:rgb(54, 54, 54)*/
   }
   
   h3 { 
@@ -28,27 +25,63 @@ header h1 {
     font-family: "Sprat_Variable";
     font-stretch: 5% 20%;
     font-weight: 10;
-    line-height: 120%;
-    margin-left: 5%;
+    line-height: 100%;
+    grid-area: right;
+    /*display: grid;*/
+    grid-column-start: 2;
+    /*margin-left: 5%;
     margin-right: 5%;
-    margin-top: 15%;
-    color:rgb(54, 54, 54)
+    margin-top: 15%;*/
+   /* color:rgb(54, 54, 54)*/
   }
 
   .title-main {
-    font-size: clamp(300px, 18vw, 1524px);
+    font-size: clamp(300px, 20vw, 1524px);
     display: block;
     text-align: center;
     margin-top: 0.5vh; 
+    /*color:rgb(54, 54, 54)*/
   }
-  
+
+  .chapitre {
+    font-size: 120px;
+    text-align: left;
+    font-family: "Sprat_Variable";
+    font-stretch: 5% 20%;
+    font-weight: 10;
+    line-height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*margin-top: 15%;*/
+    grid-area: right
+    /*color:rgb(54, 54, 54)*/
+  }
+
+  .date {
+    font-size: 120px;
+    text-align: left;
+    font-family: "Sprat_Variable";
+    font-stretch: 5% 20%;
+    font-weight: 10;
+    line-height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*margin-top: 111%;*/
+    grid-area: left
+    /*color:rgb(54, 54, 54)*/
+  }
+
   .title-author {
     float: left;
+    margin-left: 7%;
+    font-variation-settings: 'wght' 10, 'wdth' 100
+    
   }
   
-  
-    .title-date {
+  .title-date {
       float: right;
+      margin-right: 7%;
+      font-variation-settings: 'wght' 10, 'wdth' 100
   }
 
 

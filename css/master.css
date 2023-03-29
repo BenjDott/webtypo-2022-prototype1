@@ -1,24 +1,25 @@
- @import "reset.css";
- @import "typo_test.css";
+
+@import "reset.css";
+@import "base.css";
+@import "nuit.css";
+@import "typo_test.css";
  @import "titles.css";
  @import "layout.css";
- @import "crédits.css";
+ @import "credits.css";
  @import "paragraphes.css";
  @import "navigation.css";
 
 
- 
+ html {font-size: 100%;}
 
- html {
-  font-size: 100%;
+ * {
+  box-sizing: border-box;
 }
 
 body {
-  background-color:rgb(233, 233, 233);
-}
+background-color:rgb(233, 233, 233);
 
-* {
-  box-sizing: border-box;
+
 }
 
 header {

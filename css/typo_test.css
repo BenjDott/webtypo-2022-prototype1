@@ -1,15 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
-@font-face {
-    font-family: "le-murmure";
-    src: url("typo/le-murmure.otf") format('opentype');
-    font-weight: medium;
-    font-stretch: normal;}
 
  @font-face {
         font-family: "Sprat_Variable";
@@ -19,8 +9,7 @@
 
 h1, h2, h3, h4, .date, .chapitre {
     font-family: "Sprat_Variable";
-    font-stretch: 0% 100%;
-} 
+    /* font-stretch: 0% 100%;*/
+    font-variation-settings: 'wght' 100, 'wdth' 100;} 
 
-body { 
-    font-family:'Golos Text', sans-serif; }
+p { font-family:'Golos Text', sans-serif; }

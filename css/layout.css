@@ -1,8 +1,8 @@
-.container {
+/* .container {
     display: grid; 
     grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr 1.5fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
+     grid-template-rows: 1fr 1fr; 
     gap: 0px 0px; }
 
 
@@ -10,30 +10,65 @@
 
     .Texte-labeur { grid-area: 1 / 2 / 3 / 3; }
 
-    .chapitre { 
-    /* grid-area: 1 / 2 / 3 / 2;*/
-    font-size: 120px;
-    text-align: left;
-    line-height: 120%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 23%;
-    color:rgb(54, 54, 54)}
-
-
-    .date { 
-/*  grid-area: 1 / 2 / 3 / 2; */
-text-align: left;
-line-height: 120%;
-margin-left: 5%;
-margin-right: 5%;
-margin-top: 23%;
-    font-size: 60px;
-    color:rgb(54, 54, 54);
- }
-
       
 .row:after {
         content: "";
         display: table;
         clear: both;}
+
+.container {
+            display: grid; 
+            grid-template-columns: 2fr 2fr; 
+            grid-template-rows: 2fr 2fr; 
+            gap: 0px 0px; 
+            grid-template-areas: 
+              "left right right"
+             ; 
+          }
+
+          .left { grid-area: left; 
+            padding-left: 3rem;
+        }
+          .right { grid-area: right; 
+        } */
+
+        main {
+          display: grid; 
+          grid-template-columns: 1fr 1fr;   
+          grid-template-rows: auto;
+          }
+          
+          /*p { 
+            grid-area: right;
+            display: grid;
+            grid-column-start: 2;
+          }*/
+          
+          .date {
+          font-weight: 800;
+          grid-column-start: 1;
+          grid-column-end: 2;
+          margin-top: 73%;
+          }
+          
+          blockquote {
+              font-size: 2em;
+              font-style: italic;
+              padding: 4px;
+              /*background: #efefef;*/
+              grid-column: span 2;
+          }
+
+          .container 
+          {grid-area: right;
+          display: grid;
+          grid-column-start: 2;
+
+          }
+
+          .textelabeur{
+          grid-area: right;
+          display: grid;
+          grid-column-start: 2;
+          margin-top: 50%;
+          }

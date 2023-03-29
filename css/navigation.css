@@ -4,24 +4,25 @@ nav ul {
     justify-content: space-around;
     width: 100vw;
     margin-bottom: 10em;
-    margin-top: 2em;  }
+    margin-top: 2em; 
+  }
   
   nav li {
     font-size: 300px;
     font-family: "Sprat_Variable";
-    font-family: "Sprat_Variable";
-    font-stretch: 5% 20%;
     font-weight: 10;
     line-height: 120%;
-    color:rgb(54, 54, 54);
-    flex-basis: 9vw;
-    flex-shrink: 0;
-    flex-grow: 0;
-    text-align: center;
+    flex-basis: 15vw;
+    flex-shrink: 1;
+    flex-grow: 1;
   }
   
   nav a {
-    color:rgb(54, 54, 54); 
-    text-decoration: none; 
+    text-decoration: none;
+    color: rgb(54, 54, 54); 
+  }
+
+  nav a:visited {
+    color: rgb(54, 54, 54);
   }
   
