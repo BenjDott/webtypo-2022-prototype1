@@ -1,25 +1,27 @@
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100vw;
     margin-bottom: 10em;
     margin-top: 2em; 
+    text-align: center;
   }
   
   nav li {
-    font-size: 300px;
+    font-size: 250px;
     font-family: "Sprat_Variable";
     font-weight: 10;
-    line-height: 120%;
-    flex-basis: 15vw;
+    line-height: 1.2;
+    flex-basis: 17vw;
     flex-shrink: 1;
-    flex-grow: 1;
+    flex-grow: 0;
   }
   
   nav a {
     text-decoration: none;
     color: rgb(54, 54, 54); 
+    display: block;
   }
 
   nav a:visited {
